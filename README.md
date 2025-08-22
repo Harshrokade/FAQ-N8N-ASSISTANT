@@ -38,6 +38,7 @@ You can **import this JSON into n8n** to try it yourself.
 ---
 
 ## 📌 Example Use Case
+[Example.png]
 **Client:** *“How do I reset my password?”*  
 **Bot:** *“You can reset your password by going to the account settings page and clicking ‘Forgot Password’. A reset link will be sent to your email.”*  
 
