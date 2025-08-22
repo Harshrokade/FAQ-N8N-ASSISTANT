@@ -1,0 +1,51 @@
+# 🤖 Automated FAQ Assistant (n8n + OpenAI + Pinecone)
+
+This project is an **AI-powered FAQ assistant** built with **n8n**.  
+It automatically reads FAQ files uploaded to Google Drive, stores them in a vector database, and assists clients with instant answers via chat.  
+
+---
+
+## 🚀 How It Works
+
+### 📂 1. Build the Knowledge Base
+- **Google Drive Trigger** → starts when a new FAQ file is uploaded.  
+- **Download File** → fetches the uploaded FAQ document.  
+- **Default Data Loader** → extracts text from the document.  
+- **Recursive Character Text Splitter** → breaks large text into small chunks.  
+- **OpenAI Embeddings** → converts text chunks into embeddings (numerical vectors).  
+- **Pinecone Vector Store** → saves embeddings in a vector database for semantic search.  
+
+---
+
+### 💬 2. Assist the Client
+- **When Chat Message Received** → trigger when a client sends a question.  
+- **OpenAI Embeddings** → convert the client’s question into an embedding.  
+- **Pinecone Vector Store (Search)** → find the most relevant FAQ chunks.  
+- **AI Agent (OpenAI Chat Model)** → generate a polite, professional response using the retrieved FAQ context.  
+- **Send Back Response** → the client instantly receives an accurate answer.  
+
+---
+
+## 📸 Workflow Preview
+![Workflow Screenshot](./assets/workflow-screenshot.png)
+
+---
+
+## 📌 Example
+**Client:** “How can I reset my password?”  
+**Bot:** “You can reset your password by going to the account settings page and clicking *Forgot Password*. A reset link will be sent to your email.”  
+
+---
+
+## 🛠️ Tech Stack
+- [n8n](https://n8n.io) – Workflow automation  
+- [OpenAI](https://openai.com) – Embeddings + Chat Model  
+- [Pinecone](https://www.pinecone.io) – Vector database  
+- Google Drive – Document source  
+
+---
+
+## 👨‍💻 Author
+**Harsh Rokade**  
+- [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)  
+- [GitHub](https://github.com/YOUR_GITHUB)  
