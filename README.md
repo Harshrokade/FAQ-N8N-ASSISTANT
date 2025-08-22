@@ -28,7 +28,7 @@ It reads a company FAQ file, generates embeddings, and automatically assists cli
 
 ## 🔄 Workflow Export
 The complete n8n workflow is available here:  
-👉 [faq-assistant.json](./workflows/faq-assistant.json)
+👉 [faq-assistant.json](WORKFLOW/1. Rag pipeline And chatbot.json)
 
 You can **import this JSON into n8n** to try it yourself.
 
@@ -45,5 +45,5 @@ You can **import this JSON into n8n** to try it yourself.
 
 ## 👨‍💻 Author
 **Harsh Rokade**  
-- [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)  
-- [GitHub](https://github.com/YOUR_GITHUB)  
+- [LinkedIn](https://www.linkedin.com/in/harsh-rokade/)  
+- [GitHub](https://github.com/Harshrokade)  
