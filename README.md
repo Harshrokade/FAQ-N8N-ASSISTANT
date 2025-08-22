@@ -22,7 +22,7 @@ It reads a company FAQ file, generates embeddings, and automatically assists cli
 ---
 
 ## 📸 Workflow Preview
-![Workflow Screenshot](./workflow/Screenshot.pnj)
+![Workflow Screenshot](WORKFLOW/Screenshot.png)
 
 ---
 
